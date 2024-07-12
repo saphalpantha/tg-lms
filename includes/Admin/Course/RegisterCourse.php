@@ -18,10 +18,9 @@ class RegisterCourse
      * RegisterCourse constructor.
      *
      * @since 1.0.0
-     * @param string $post_type The custom post type to register.
+     * @param string $post_type The custom post type to register .
      */
-    function __construct($post_type)
-    {
+    function __construct($post_type){
         $this->post_type = $post_type;
         add_action('init', array($this, 'reg_custom_post_type'));
     }
