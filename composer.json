@@ -1,0 +1,17 @@
+{
+    "name": "kiit/tg-lms",
+    "type": "project",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "TgRoot\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saphalpantha",
+            "email": "saphalpantha@gmail.com"
+        }
+    ],
+    "require": {}
+}
